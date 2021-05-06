@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <right>
+      <TextArea fx:id="txt2" prefHeight="373.0" prefWidth="281.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" rotate="270.0" BorderPane.alignment="CENTER">
+        <buttons>
+          <Button fx:id="button3" mnemonicParsing="false" onAction="#handleButtonClick3" rotate="90.0" text="Clear" />
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#handleButtonClick2" rotate="90.0" text="Load Data" />
+            <Button fx:id="button" mnemonicParsing="false" onAction="#handleButtonClick" rotate="90.0" text="Generate" />
+        </buttons>
+      </ButtonBar>
+   </center>
+</BorderPane>
